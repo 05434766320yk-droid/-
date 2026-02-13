@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ورشة أبو إلياس للتمديدات الصحية الاحترافية | 0959602410</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <style>
+        :root {
+            --primary: #0077b6;
+            --secondary: #00b4d8;
+            --dark: #03045e;
+            --light: #caf0f8;
+            --accent: #ffb703;
+        }
+
+        * { box-sizing: border-box; transition: all 0.3s ease; }
+        body { font-family: 'Cairo', sans-serif; margin: 0; background: #f4f7f6; color: var(--dark); overflow-x: hidden; }
+
+        header {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            padding: 15px 5%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+        }
+
+        .logo { font-size: 26px; font-weight: 800; color: var(--primary); display: flex; align-items: center; gap: 10px; }
+        .logo i { color: var(--secondary); }
+
+        .contact-btn {
+            background: linear-gradient(45deg, var(--primary), var(--secondary));
+            color: white;
+            padding: 12px 25px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 600;
+            box-shadow: 0 4px 15px rgba(0, 119, 182, 0.3);
+        }
+
+        .hero {
+            height: 80vh;
+            background: linear-gradient(rgba(3, 4, 94, 0.7), rgba(0, 180, 216, 0.5)), 
+                        url('https://images.unsplash.com/photo-1504148455328-c376907d081c?q=80&w=1470&auto=format&fit=crop');
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: white;
+            padding: 20px;
+        }
+
+        .hero h1 { font-size: 3.2rem; margin-bottom: 20px; text-shadow: 2px 2px 10px rgba(0,0,0,0.5); }
+        .hero p { font-size: 1.3rem; max-width: 700px; margin-bottom: 30px; }
+
+        .section-title { text-align: center; margin: 60px 0 40px; font-size: 2.2rem; position: relative; }
+        .section-title::after { content: ''; width: 80px; height: 4px; background: var(--accent); position: absolute; bottom: -10px; left: 50%; transform: translateX(-50%); }
+
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            padding: 0 10%;
+            margin-bottom: 60px;
+        }
+
+        .card {
+            background: white;
+            padding: 40px;
+            border-radius: 20px;
+            text-align: center;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 15px;
+            padding: 20px 10%;
+            margin-bottom: 50px;
+        }
+
+        .gallery img { width: 100%; height: 250px; object-fit: cover; border-radius: 15px; }
+
+        .whatsapp-float {
+            position: fixed;
+            bottom: 30px;
+            left: 30px;
+            background: #25d366;
+            width: 65px;
+            height: 65px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-size: 35px;
+            box-shadow: 0 10px 25px rgba(37, 211, 102, 0.4);
+            z-index: 1000;
+        }
+
+        footer { background: var(--dark); color: white; padding: 40px 10%; text-align: center; }
+
+        @media (max-width: 768px) {
+            .hero h1 { font-size: 2.2rem; }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <i class="fas fa-faucet-drip"></i>
+            ورشة أبو إلياس
+        </div>
+        <a href="tel:0959602410" class="contact-btn">
+            <i class="fas fa-phone-alt"></i> 0959602410
+        </a>
+    </header>
+
+    <section class="hero">
+        <h1>خبير التمديدات الصحية</h1>
+        <p>نقدم أفضل حلول التمديدات الصحية وصيانة الشبكات بأحدث التقنيات وبأعلى معايير الجودة.</p>
+        <a href="https://wa.me/963959602410" class="contact-btn" style="background: var(--accent); color: var(--dark);">اطلب الخدمة الآن</a>
+    </section>
+
+    <h2 class="section-title">خدمات التمديدات الصحية</h2>
+    <div class="services-grid">
+        <div class="card">
+            <i class="fas fa-tools"></i>
+            <h3>تأسيس تمديدات صحية</h3>
+            <p>تخطيط وتنفيذ تمديدات المياه والصرف الصحي للمباني الجديدة بأعلى دقة.</p>
+        </div>
+        <div class="card">
+            <i class="fas fa-search-location"></i>
+            <h3>صيانة وترميم</h3>
+            <p>صيانة شاملة للشبكات الصحية القديمة ومعالجة كافة المشاكل الفنية.</p>
+        </div>
+        <div class="card">
+            <i class="fas fa-hot-tub"></i>
+            <h3>أنظمة تسخين المياه</h3>
+            <p>تركيب وصيانة السخانات العادية والمركزية وتمديداتها الخاصة.</p>
+        </div>
+    </div>
+
+    <h2 class="section-title">معرض الصور</h2>
+    <div class="gallery">
+        <img src="https://images.unsplash.com/photo-1585704032915-c3400ca199e7?q=80&w=600&auto=format&fit=crop" alt="تمديدات صحية">
+        <img src=https://images.pexels.com/photos/6419128/pexels-photo-6419128.jpeg alt="أعمال تمديدات">
+        <img src="https://images.unsplash.com/photo-1595131838595-3154b9f4450b?q=80&w=600&auto=format&fit=crop" alt="صيانة صحية">
+        <img src=https://images.pexels.com/photos/2310904/pexels-photo-2310904.jpeg alt="أنابيب مياه">
+    </div>
+
+    <a href="https://wa.me/963959602410" class="whatsapp-float" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <footer>
+        <div class="footer-info">
+            <h3>ورشة أبو إلياس للتمديدات الصحية</h3>
+            <p><i class="fas fa-phone"></i> 0959602410</p>
+        </div>
+        <p>© 2026 جميع الحقوق محفوظة لورشة أبو إلياس</p>
+    </footer>
+
+</body>
+</html>

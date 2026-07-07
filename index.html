@@ -20,6 +20,11 @@
 </head>
 <body class="bg-gray-50 text-gray-800">
 
+    <!-- زر الواتساب العائم -->
+    <a href="https://wa.me/963959602410" target="_blank" class="fixed bottom-6 left-6 z-50 bg-green-500 text-white p-4 rounded-full shadow-2xl hover:bg-green-600 transition-all transform hover:scale-110 flex items-center justify-center animate-bounce" title="تواصل معنا عبر الواتساب">
+        <i class="fa-brands fa-whatsapp text-3xl"></i>
+    </a>
+
     <!-- القائمة العلوية (Navbar) -->
     <header class="bg-white shadow-md sticky top-0 z-50">
         <div class="container mx-auto px-6 py-4 flex justify-between items-center">
@@ -33,10 +38,15 @@
                 <a href="#gallery" class="text-gray-600 hover:text-blue-600 transition">أعمالنا</a>
                 <a href="#contact" class="text-gray-600 hover:text-blue-600 transition">اتصل بنا</a>
             </nav>
-            <a href="tel:0959602410" class="bg-blue-600 text-white px-5 py-2 rounded-full font-bold hover:bg-blue-700 transition flex items-center gap-2 shadow-lg shadow-blue-200">
-                <i class="fa-solid fa-phone-flip animate-pulse"></i>
-                <span>إتصل الآن</span>
-            </a>
+            <div class="flex items-center gap-3">
+                <a href="https://wa.me/963959602410" target="_blank" class="bg-green-500 text-white p-2.5 rounded-full hover:bg-green-600 transition flex items-center justify-center shadow-md">
+                    <i class="fa-brands fa-whatsapp text-xl"></i>
+                </a>
+                <a href="tel:0959602410" class="bg-blue-600 text-white px-5 py-2 rounded-full font-bold hover:bg-blue-700 transition flex items-center gap-2 shadow-lg shadow-blue-200">
+                    <i class="fa-solid fa-phone-flip animate-pulse"></i>
+                    <span class="hidden sm:inline">إتصل الآن</span>
+                </a>
+            </div>
         </div>
     </header>
 
@@ -48,21 +58,22 @@
         <div class="container mx-auto px-6 relative z-10 text-center md:text-right flex flex-col md:flex-row items-center justify-between gap-12">
             <div class="md:w-1/2 space-y-6">
                 <span class="bg-blue-500/30 text-blue-200 px-4 py-1.5 rounded-full text-sm font-semibold tracking-wide">خبرة واحترافية عالية</span>
-                <h1 class="text-4xl md:text-5xl font-bold leading-tight">ورشة أبو إلياس <br><span class="text-blue-300">للتمديدات الصحية والصيانة العامة</span></h1>
+                <h1 class="text-4xl md:text-5xl font-bold leading-tight">ورشة أبو إلياس <br><span class="text-blue-300">للتمديدات الصحية وطاقة المياه الشمسية</span></h1>
                 <p class="text-lg text-blue-100 max-w-xl">
-                    نقدم أفضل خدمات التأسيس والصيانة للتمديدات الصحية، تركيب المغاسل، الشاورات، وتجهيز الشبكات بأحدث المعدات وأعلى جودة إتقان.
+                    نقدم أفضل خدمات التأسيس والصيانة للتمديدات الصحية، تركيب وصيانة منظومات طاقة المياه الشمسية، وتجهيز الشبكات بأعلى جودة إتقان وبأحدث المعدات.
                 </p>
                 <div class="flex flex-wrap justify-center md:justify-start gap-4 pt-4">
-                    <a href="tel:0959602410" class="bg-emerald-500 hover:bg-emerald-600 text-white font-bold px-8 py-4 rounded-xl shadow-lg transition flex items-center gap-3 text-lg">
-                        <i class="fa-solid fa-phone"></i> 0959602410
+                    <a href="tel:0959602410" class="bg-blue-600 hover:bg-blue-700 text-white font-bold px-6 py-4 rounded-xl shadow-lg transition flex items-center gap-3 text-lg">
+                        <i class="fa-solid fa-phone"></i> اتصل: 0959602410
                     </a>
-                    <a href="#services" class="bg-white/10 hover:bg-white/20 text-white border border-white/30 font-bold px-8 py-4 rounded-xl transition">
-                        اكتشف خدماتنا
+                    <a href="https://wa.me/963959602410" target="_blank" class="bg-emerald-500 hover:bg-emerald-600 text-white font-bold px-6 py-4 rounded-xl shadow-lg transition flex items-center gap-3 text-lg">
+                        <i class="fa-brands fa-whatsapp text-xl"></i> واتساب سريع
                     </a>
                 </div>
             </div>
+            <!-- تم تغيير صورة المثقب هنا إلى صورة منظومة طاقة شمسية للمياه -->
             <div class="md:w-1/2 w-full max-w-md md:max-w-none">
-                <img src="https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&q=80&w=800" alt="Plumbing Work" class="rounded-2xl shadow-2xl border-4 border-white/10 object-cover w-full h-[350px]">
+                <img src="https://images.unsplash.com/photo-1613665813446-82a78c468a1d?auto=format&fit=crop&q=80&w=800" alt="سخانات طاقة شمسية للمياه" class="rounded-2xl shadow-2xl border-4 border-white/10 object-cover w-full h-[350px]">
             </div>
         </div>
     </section>
@@ -74,14 +85,14 @@
                 <div class="bg-blue-100 p-4 rounded-lg text-blue-600 text-2xl"><i class="fa-solid fa-clock"></i></div>
                 <div>
                     <h3 class="font-bold text-lg text-blue-950">سرعة في التلبية</h3>
-                    <p class="text-sm text-gray-500">نصلك في أسرع وقت لحل المشاكل طارئة.</p>
+                    <p class="text-sm text-gray-500">نصلك في أسرع وقت لحل المشاكل الطارئة.</p>
                 </div>
             </div>
             <div class="bg-white p-6 rounded-xl shadow-xl flex items-center gap-4 border-b-4 border-emerald-500">
-                <div class="bg-emerald-100 p-4 rounded-lg text-emerald-600 text-2xl"><i class="fa-solid fa-shield-halved"></i></div>
+                <div class="bg-emerald-100 p-4 rounded-lg text-emerald-600 text-2xl"><i class="fa-solid fa-sun"></i></div>
                 <div>
-                    <h3 class="font-bold text-lg text-blue-950">جودة مضمونة</h3>
-                    <p class="text-sm text-gray-500">مواد أصلية عمل متقن يعيش طويلاً.</p>
+                    <h3 class="font-bold text-lg text-blue-950">أنظمة طاقة متكاملة</h3>
+                    <p class="text-sm text-gray-500">تركيب وصيانة السخانات الشمسية بكفاءة عالية.</p>
                 </div>
             </div>
             <div class="bg-white p-6 rounded-xl shadow-xl flex items-center gap-4 border-b-4 border-amber-500">
@@ -98,28 +109,28 @@
     <section id="services" class="py-20 bg-gray-50">
         <div class="container mx-auto px-6">
             <div class="text-center max-w-xl mx-auto mb-16">
-                <h2 class="text-3xl font-bold text-blue-950 mb-4">ماذا نقدم في ورشة أبو إلياس؟</h2>
+                <h2 class="text-3xl font-bold text-blue-950 mb-4">ماذا نقدم في ورشة أبو إلياس?</h2>
                 <div class="h-1 w-20 bg-blue-600 mx-auto rounded-full"></div>
-                <p class="text-gray-600 mt-4">نغطي كافة أعمال التمديدات الصحية والصيانة السريعة والتأسيس للمباني والمنشآت.</p>
+                <p class="text-gray-600 mt-4">نغطي كافة أعمال التمديدات الصحية والصيانة السريعة وتركيب سخانات الطاقة الشمسية.</p>
             </div>
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
                 <!-- خدمة 1 -->
                 <div class="bg-white p-8 rounded-2xl shadow-sm hover:shadow-xl transition duration-300 border border-gray-100 group">
-                    <div class="text-blue-600 text-4xl mb-4 group-hover:scale-110 transition duration-300"><i class="fa-solid fa-pipes"></i><i class="fa-solid fa-screwdriver-wrench"></i></div>
-                    <h3 class="text-xl font-bold text-blue-950 mb-3">تأسيس شبكات المياه والصرف</h3>
-                    <p class="text-gray-600 text-sm leading-relaxed">تمديد الأنابيب الحرارية وشبكات الصرف الصحي للمباني قيد الإنشاء بأعلى معايير الكفاءة ومنع التسريب تماماً.</p>
+                    <div class="text-blue-600 text-4xl mb-4 group-hover:scale-110 transition duration-300"><i class="fa-solid fa-solar-panel"></i></div>
+                    <h3 class="text-xl font-bold text-blue-950 mb-3">تركيب وصيانة طاقة المياه الشمسية</h3>
+                    <p class="text-gray-600 text-sm leading-relaxed">تركيب منظومات السخانات الشمسية، تمديد أنابيب المياه الساخنة المعزولة، وصيانة الأنابيب الزجاجية واللوحات بكفاءة تضمن استمرار المياه الساخنة.</p>
                 </div>
                 <!-- خدمة 2 -->
                 <div class="bg-white p-8 rounded-2xl shadow-sm hover:shadow-xl transition duration-300 border border-gray-100 group">
                     <div class="text-blue-600 text-4xl mb-4 group-hover:scale-110 transition duration-300"><i class="fa-solid fa-shower"></i></div>
-                    <h3 class="text-xl font-bold text-blue-950 mb-3">تركيب مغاسل وشاورات وأطقم صحية</h3>
-                    <p class="text-gray-600 text-sm leading-relaxed">تركيب بدقة وعناية للمغاسل، خلاطات المياه، الشاورات الحديثة، وكافة إكسسوارات الحمامات والمطابخ الفاخرة.</p>
+                    <h3 class="text-xl font-bold text-blue-950 mb-3">تجهيز الحمامات والأطقم الصحية</h3>
+                    <p class="text-gray-600 text-sm leading-relaxed">تركيب دقيق وعصري للمغاسل، خلاطات المياه الذكية، الشاورات الحديثة، وكافة إكسسوارات الحمامات والمطابخ الفاخرة.</p>
                 </div>
                 <!-- خدمة 3 -->
                 <div class="bg-white p-8 rounded-2xl shadow-sm hover:shadow-xl transition duration-300 border border-gray-100 group">
                     <div class="text-blue-600 text-4xl mb-4 group-hover:scale-110 transition duration-300"><i class="fa-solid fa-droplet-slash"></i></div>
-                    <h3 class="text-xl font-bold text-blue-950 mb-3">صيانة الأعطال وكشف التسريبات</h3>
-                    <p class="text-gray-600 text-sm leading-relaxed">إصلاح سريع لخلاطات المياه المكسورة، انسداد المجاري، وتغيير القطع التالفة بقطع غيار أصلية ومكفولة.</p>
+                    <h3 class="text-xl font-bold text-blue-950 mb-3">كشف التسريبات وصيانة الشبكات</h3>
+                    <p class="text-gray-600 text-sm leading-relaxed">إصلاح سريع لانسداد المجاري وتفجير الأنابيب، وتغيير القطع التالفة بقطع غيار أصلية ومكفولة تمنع الهدر والتسريب.</p>
                 </div>
             </div>
         </div>
@@ -134,9 +145,9 @@
             </div>
             <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
                 <div class="overflow-hidden rounded-xl shadow-md group relative">
-                    <img src="https://images.unsplash.com/photo-1504148455328-c376907d081c?auto=format&fit=crop&q=80&w=600" alt="تركيب تمديدات" class="w-full h-64 object-cover group-hover:scale-105 transition duration-500">
+                    <img src="https://images.unsplash.com/photo-1613665813446-82a78c468a1d?auto=format&fit=crop&q=80&w=600" alt="طاقة شمسية" class="w-full h-64 object-cover group-hover:scale-105 transition duration-500">
                     <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition duration-300 flex items-end p-4">
-                        <p class="text-white font-bold">دقة وتناسق في توزيع التمديدات</p>
+                        <p class="text-white font-bold">تركيب أنظمة طاقة شمسية لتسخين المياه</p>
                     </div>
                 </div>
                 <div class="overflow-hidden rounded-xl shadow-md group relative">
@@ -160,18 +171,23 @@
         <div class="container mx-auto px-6 text-center max-w-2xl">
             <div class="bg-white p-8 md:p-12 rounded-3xl shadow-xl border border-blue-100">
                 <i class="fa-solid fa-headset text-blue-600 text-5xl mb-4"></i>
-                <h2 class="text-2xl md:text-3xl font-bold text-blue-950 mb-2">هل تحتاج إلى سباك محترف فوراً؟</h2>
-                <p class="text-gray-600 mb-8">أبو إلياس في خدمتكم دائماً. اتصل بنا الآن ولا تتردد، نصلك أينما كنت وبأسرع وقت.</p>
+                <h2 class="text-2xl md:text-3xl font-bold text-blue-950 mb-2">هل تحتاج إلى خدمة فورية؟</h2>
+                <p class="text-gray-600 mb-8">أبو إلياس في خدمتكم دائماً للتمديدات والصيانة المتقنة وسخانات الطاقة الشمسية.</p>
                 
-                <div class="bg-blue-900 text-white rounded-2xl p-6 flex flex-col sm:flex-row items-center justify-between gap-4 shadow-inner">
-                    <div class="text-right sm:text-right text-center">
-                        <p class="text-xs text-blue-200 uppercase tracking-wider font-semibold">رقم الهاتف المباشر</p>
-                        <p class="text-2xl font-bold tracking-wide mt-1">0959602410</p>
+                <div class="bg-blue-900 text-white rounded-2xl p-6 flex flex-col gap-4 shadow-inner">
+                    <div class="text-center">
+                        <p class="text-xs text-blue-200 uppercase tracking-wider font-semibold">تواصل معنا مباشرة عبر</p>
                     </div>
-                    <a href="tel:0959602410" class="w-full sm:w-auto bg-emerald-500 hover:bg-emerald-600 text-white font-bold px-6 py-3.5 rounded-xl transition flex items-center justify-center gap-2 text-lg shadow-md">
-                        <i class="fa-solid fa-phone-volume"></i>
-                        اضغط للاتصال الآن
-                    </a>
+                    <div class="flex flex-col sm:flex-row items-center justify-center gap-4 w-full">
+                        <a href="tel:0959602410" class="w-full sm:w-1/2 bg-blue-600 hover:bg-blue-700 text-white font-bold px-6 py-3.5 rounded-xl transition flex items-center justify-center gap-2 shadow-md">
+                            <i class="fa-solid fa-phone-volume"></i>
+                            إتصال هادفي
+                        </a>
+                        <a href="https://wa.me/963959602410" target="_blank" class="w-full sm:w-1/2 bg-green-500 hover:bg-green-600 text-white font-bold px-6 py-3.5 rounded-xl transition flex items-center justify-center gap-2 shadow-md">
+                            <i class="fa-brands fa-whatsapp text-xl"></i>
+                            محادثة واتساب
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -180,10 +196,9 @@
     <!-- الفوتر (Footer) -->
     <footer class="bg-blue-950 text-blue-200 py-8 border-t border-blue-900 text-center">
         <div class="container mx-auto px-6">
-            <p class="text-sm">&copy; 2026 ورشة أبو إلياس للتمديدات الصحية. جميع الحقوق محفوظة.</p>
+            <p class="text-sm">&copy; 2026 ورشة أبو إلياس للتمديدات الصحية والطاقة الشمسية. جميع الحقوق محفوظة.</p>
         </div>
     </footer>
 
 </body>
-                                                                                                   </html>
-                                                                                                   
+</html>
